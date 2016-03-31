@@ -89,6 +89,10 @@ IntergralImages= GetIntergralImages(Picture,Options);
 
 Objects = HaarCasadeObjectDetection(IntergralImages,HaarCasade,Options);
 
+%display object
+display(size(Objects, 1));
+Objects
+
 % Show the finale results
 if(nargout==0)
     ShowDetectionResult(Picture,Objects);
