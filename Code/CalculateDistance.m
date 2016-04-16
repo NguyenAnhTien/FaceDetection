@@ -1,3 +1,5 @@
+%I am Tien Nguyen. I am form EMB.
+
 function[distance] = CalculateDistance(eigenface, mean, sub_window, height_face, width_face)
 
 %step 1:
